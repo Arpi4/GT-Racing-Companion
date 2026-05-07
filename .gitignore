@@ -1,0 +1,50 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Android/Gradle
+.gradle/
+build/
+*/build/
+.idea/
+*.iml
+*.hprof
+
+# Kotlin
+*.kotlin_module
+
+# Local configuration
+local.properties
+
+# Logs
+*.log
+
+# Captures
+captures/
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Mac
+.DS_Store
+
+# IntelliJ
+out/
+GT-Racing-Companion/
+projektmunka-Arpi4/
+README2.md
+keystore.properties
+*.jks
+*.keystore
+docs/PLAY_RELEASE.md
