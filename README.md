@@ -36,10 +36,10 @@ Android Studio-ból is futtatható: `app` modul kiválasztása után **Run 'app'
 - Lokálisan buildelt APK útvonalak:
   - Debug: `app/build/outputs/apk/debug/app-debug.apk`
   - Release: `app/build/outputs/apk/release/app-release.apk`
-- GitHub Releases oldal: [projektmunka-Arpi4 Releases](https://github.com/mobil-alkalmazasfejlesztes-2026/projektmunka-Arpi4/releases)
+- GitHub Releases oldal: [GT-Racing-Companion Releases](https://github.com/Arpi4/GT-Racing-Companion/releases)
 - Közvetlen letöltési linkek:
-  - Debug APK: https://github.com/mobil-alkalmazasfejlesztes-2026/projektmunka-Arpi4/releases/download/v1.1.0/app-debug.apk
-  - Release APK: https://github.com/mobil-alkalmazasfejlesztes-2026/projektmunka-Arpi4/releases/download/v1.1.0/app-release.apk
+  - Debug APK: https://github.com/Arpi4/GT-Racing-Companion/releases/download/v1.1.0/app-debug.apk
+  - Release APK: https://github.com/Arpi4/GT-Racing-Companion/releases/download/v1.1.0/app-release.apk
 - Telepítés ADB-vel:
 ```bash
 adb install -r app/build/outputs/apk/debug/app-debug.apk
