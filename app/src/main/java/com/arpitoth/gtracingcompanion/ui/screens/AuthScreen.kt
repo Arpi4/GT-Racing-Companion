@@ -19,6 +19,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.navigation.NavController
 import com.arpitoth.gtracingcompanion.data.AuthRepository
 import com.arpitoth.gtracingcompanion.ui.theme.Spacing
@@ -56,6 +57,7 @@ fun AuthScreen(
             value = password,
             onValueChange = { password = it },
             label = { Text("Jelszó") },
+            visualTransformation = PasswordVisualTransformation(),
             modifier = Modifier
                 .fillMaxWidth()
                 .testTag("auth_password")
