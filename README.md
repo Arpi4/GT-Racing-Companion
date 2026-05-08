@@ -44,6 +44,10 @@ Android Studio-ból is futtatható: `app` modul kiválasztása után **Run 'app'
 ```bash
 adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
+```regisztráció:
+- email: admin@test.com
+- jelszó: admin123
+```
 
 ## 🔐 Backend szabályok
 
